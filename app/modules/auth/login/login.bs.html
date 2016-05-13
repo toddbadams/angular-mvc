@@ -1,0 +1,26 @@
+﻿<div class="auth login">
+    <div class="logo"><svg-icon svg-icon="LOGO-MED"></svg-icon></div>
+    <div class="title" translate="LOGIN.TITLE"></div>
+
+    <form name="loginForm">
+        <input-email model="$ctrl.model.email"></input-email>
+        <input-password model="$ctrl.model.password"></input-password>
+        <input-remember-me model="$ctrl.model.rememberMe"></input-remember-me>
+        <a-forgot-password></a-forgot-password>
+
+        <button type="submit" class="btn btn-primary" aria-label="{{'AUTH.LOGIN.SUBMIT' | translate}}"
+                ng-disabled="loginForm.$invalid || loginForm.$pristine" translate="AUTH.LOGIN.SUBMIT"></button>
+    </form>
+
+    <div class="separator">
+        <span class="text" translate="LOGIN.OR">OR</span>
+    </div>
+
+    <login-google></login-google>
+
+
+    <div class="register" layout="row" layout-sm="column" layout-align="center center">
+        <span class="text" translate="LOGIN.DONT_HAVE_ACCOUNT">Don't have an account?</span>
+        <a class="link" ui-sref="app.pages_auth_register" translate="LOGIN.CREATE_ACCOUNT">Create an account</a>
+    </div>
+</div>

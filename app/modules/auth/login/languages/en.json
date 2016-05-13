@@ -1,0 +1,14 @@
+﻿{
+    "AUTH": {
+        "LOGIN": {
+            "TITLE": "Sign into your account",
+            "REMEMBER_ME": "Remember Me",
+            "FORGOT_PASSWORD": "Forgot Password?",
+            "SUBMIT": "Sign in",
+            "OR": "OR",
+            "GOOGLE": "Log in with Google",
+            "FACEBOOK": "Log in with Facebook",
+            "REGISTER": "Don't have an account?"
+        }
+    }
+}

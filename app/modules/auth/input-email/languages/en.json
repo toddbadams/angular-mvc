@@ -1,0 +1,11 @@
+﻿{
+    "AUTH": {
+        "EMAIL": {
+            "LABEL": "Email",
+            "ERRORS": {
+                "REQUIRED": "Please enter your email address",
+                "VALID": "Your email is not a valid address"
+            }
+        }
+    }
+}

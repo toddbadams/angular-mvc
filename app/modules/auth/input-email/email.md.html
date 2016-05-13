@@ -1,0 +1,8 @@
+﻿<md-input-container class="md-block">
+    <label translate="AUTH.EMAIL.LABEL" for="email"></label>
+    <input type="email" name="email" ng-model="$ctrl.model" ng-pattern="/^.+@.+\..+$/" required />
+    <div ng-messages="$ctrl.form.email.$error" role="alert">
+        <div ng-message="required"><span translate="AUTH.EMAIL.ERRORS.REQUIRED"></span></div>
+        <div ng-message="pattern"><span translate="AUTH.EMAIL.ERRORS.VALID"></span></div>
+    </div>
+</md-input-container>

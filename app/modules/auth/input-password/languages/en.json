@@ -1,0 +1,22 @@
+﻿{
+    "AUTH": {
+        "LOGIN": {
+            "TITLE": "Sign into your account",
+
+            "PASSWORD": {
+                "LABEL": "Password",
+                "ERRORS": {
+                    "REQUIRED": "Please enter your password"
+                }
+            },
+            "REMEMBER_ME": "Remember Me",
+            "FORGOT_PASSWORD": "Forgot Password?",
+            "SUBMIT": "Sign in",
+            "OR": "OR",
+            "WITH_GOOGLE": "Log in with Google",
+            "WITH_FACEBOOK": "Log in with Facebook",
+            "DONT_HAVE_ACCOUNT": "Don't have an account?",
+            "CREATE_ACCOUNT": "Create an account"
+        }
+    }
+}

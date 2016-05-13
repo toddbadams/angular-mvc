@@ -1,0 +1,26 @@
+{
+  "name": "angular-mvc",
+  "homepage": "https://github.com/toddbadams/angular-mvc",
+  "authors": [
+    "Todd B. Adams <toddbadams@msn.com>"
+  ],
+  "description": "fun",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-translate": "^2.11.0",
+    "angular-translate-loader-static-files": "^2.11.0",
+    "bootstrap": "v4.0.0-alpha.2",
+    "angular-animate": "^1.5.5",
+    "angular-messages": "^1.5.5",
+    "zxcvbn": "^4.3.0"
+  }
+}
